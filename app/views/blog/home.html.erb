@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="span7">
+    <h3 class="sub_heading">Ahoy, Me Hearties</h3>
+    <p>Hi! Let's see what you've got. Please reproduce this page, including these instructions, with HTML and CSS.</p>
+    <div class="instructions">
+      <ul>
+        <li><span class="first_word">Do</span>
+          use code comments (but not
+          <em>too</em>
+          many). If you have multiple approaches in 
+        mind, use what you think is best, and explain your decision in the comments.
+        </li>
+        <li><span class="first_word">Do</span>
+          prioritize clean, readable code over optimized code.</li>
+        <li><span class="first_word">Do</span>
+          support the latest Safari, Firefox, Chrome, and IE 6-9, inclusive. Provide
+        one HTML file that works across all browsers, and as many stylesheets as you
+        need. Include the special message for IE 6 users.</li>
+        <li><span class="first_word">Do</span>
+          consider the details, but degrade gracefully</li>
+        <li><span class="first_word">Don't</span>
+          use any images other than the
+          <%= link_to "logo", image_path("mint-digital.png"), :target => "_blank" %>. (Feel free to 
+        load the logo straight from our website.)
+        </li>
+        <li><span class="first_word">Don't</span>
+          minify your code. (If you do anyway, include the original source.)</li>
+      </ul>
+      <p>Hint: This post's subject typeface is "Lobster". (Yes, it looks goofy here.)</p>
+    </div>
+  </div>
+  <div class="span4">
+    <%= render "shared/side_menu" %>
+  </div>
+</div>
+<div class="row">
+  <div class="span7">
+    <div class="lighten">
+      <h3 class="sub_heading">Lorem Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="span7">
+    <div class="contact_info">
+      <%= mail_to "hello@mintdigital.com", "hello@mintdigital.com" %><br>
+      London: +44 20 7840 0889<br>
+      New York: +1 212 255 7751
+    </div>
+  </div>
