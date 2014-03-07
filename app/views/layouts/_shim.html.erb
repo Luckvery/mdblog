@@ -1,3 +1,6 @@
 <![if lte IE 8]>
-<%= stylesheet_link_tag    "application-ie", media: "all" %>
+<%= stylesheet_link_tag "blog-ie", media: "all" %>
+<![endif]>
+<![if gt IE 8]>
+<%= stylesheet_link_tag  "blog", media: "all" %>
 <![endif]>
