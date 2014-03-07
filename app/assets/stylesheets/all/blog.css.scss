@@ -90,3 +90,32 @@ a:hover {
 .lighten{
 	opacity:0.8
 }
+
+
+// Internet Explorer 8 Related styles
+
+.ie8 .ie8_message {
+	display:inline;
+	background:#950b00;
+	line-height:18px;
+	color:#ffffff;
+	padding: 15px;
+}
+
+.ie8 .ie8_message a:link, 
+.ie8 .ie8_message a:visited,
+.ie8 .ie8_message a:hover,
+.ie8 .ie8_message a:active{
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+.ie8 h3.sub_heading {
+     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+     font-size: 30px;
+     font-weight: 400;
+ }
+
+.ie8 .lighten{
+	flter:alpha(opacity=100);
+}
