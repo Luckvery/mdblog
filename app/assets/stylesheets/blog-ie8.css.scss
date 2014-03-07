@@ -27,13 +27,11 @@ h3.sub_heading {
  }
 
 .ie8_message {
-	display:inline;
+	display:block;
 	background:#950b00;
 	line-height:18px;
 	color:#ffffff;
 	padding: 15px;
-	max-width:100%;
-	width:100%;
 }
 
 .ie8_message a:link, 
