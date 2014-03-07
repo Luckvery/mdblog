@@ -1,0 +1,52 @@
+@import "bootstrap";
+@import "mixins";
+@import "colors";
+
+body{
+	 border-top: 3px solid $mint;
+}
+
+.side_heading, .first_word{
+	font-weight:bold;
+}
+
+p {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.main_header{
+	margin-bottom: 12px;
+}
+ 
+ .main_nav span{
+ 	margin-right: 10px;
+ }
+.instructions li{
+	margin-bottom: 1em;
+}
+
+ .main_title_mint{
+	@include main_title_style;
+ 	font-weight: 200;
+    color:$mint;
+ }
+ .main_title_digital{
+	@include main_title_style;
+ 	font-weight: 400;
+ }
+
+a:link, 
+a:visited,
+a:active {
+	color: $mint;
+}
+
+a:hover {
+	color: $mint; text-decoration:none;
+}
+
+.contact_info{
+	margin-top:65px;
+}

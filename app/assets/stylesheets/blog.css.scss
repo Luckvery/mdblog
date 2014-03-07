@@ -1,0 +1,40 @@
+@import "all/mixins";
+
+.main_container{
+	padding:40px 130px; 
+	@include body_gradient;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.side_menu_container {
+	background:#ffffff;
+	@include side_menu_border;
+	border-bottom: 1px solid #ffffff;
+}
+
+.side_menu{
+	border-style:solid;
+	border-color:#bbbbbb;
+	border-width:2px;
+	padding: 15px;
+	@include side_menu_gradient;
+	@include side_menu_border;
+	border: 1px solid #bbbbbb;
+	margin-bottom: 1px;
+
+}
+
+h3.sub_heading {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.ie8_message {
+	display:none !important;
+}
+
+.lighten{
+	opacity:0.8
+}
+
