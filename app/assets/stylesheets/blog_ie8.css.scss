@@ -1,0 +1,49 @@
+// Internet Explorer 8 Related styles
+.main_container{
+	padding:40px 130px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #ffffff;
+}
+
+
+.side_menu_container {
+	background:#ffffff;
+}
+
+.side_menu{
+	border-style:solid;
+	border-color:#bbbbbb;
+	border-width:2px;
+	padding: 15px;
+	border: 1px solid #bbbbbb;
+	margin-bottom: 1px;
+	background: #dddddd;
+}
+
+h3.sub_heading {
+     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+     font-size: 30px;
+     font-weight: 400;
+ }
+
+div.span12.ie8_message {
+	display:block;
+	background:#950b00;
+	line-height:18px;
+	color:#ffffff;
+	padding: 15px;
+}
+
+div.ie8_message a:link, 
+div.ie8_message a:visited,
+div.ie8_message a:hover,
+div.ie8_message a:active {
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+.lighten {
+	flter:alpha(opacity=100);
+}
+
+
