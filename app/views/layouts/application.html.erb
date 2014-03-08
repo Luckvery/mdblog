@@ -3,10 +3,11 @@
   <head>
     <title>Mint Digital - Imaginary Blog</title>
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag  "blog", media: "all" %>
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
     <%= render "layouts/shim" %>
   </head>
   <body>
