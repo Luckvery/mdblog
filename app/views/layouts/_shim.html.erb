@@ -1,6 +1,6 @@
-<!-- [if (!IE)|(gt IE 8)] -->
-<%= stylesheet_link_tag  "blog", media: "all" %>
-<!-- [endif] -->
-<!-- [if lte IE 8]>  
-<%= stylesheet_link_tag  "blog", media: "all" %>
-<! [endif] -->
+<!--[if (!IE)|(gt IE 8)]>
+  <%= stylesheet_link_tag  "blog", media: "all" %>
+<![endif]-->
+<!--[if lte IE 8]>
+  <%= stylesheet_link_tag  "blog-ie", media: "all" %>
+<![endif]-->
